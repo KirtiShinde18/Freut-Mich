@@ -1,6 +1,8 @@
 import React from 'react'
 import hero from "../assets/herooo.png"
 import { DownloadIcon } from 'lucide-react'
+import About from './About'
+import Trending from './Trending'
 
 const Home = () => {
   return <>
@@ -37,7 +39,7 @@ const Home = () => {
       <img
         src={hero}
         alt=""
-        className="h-[400px] sm:h-[500px] md:h-[500px] lg:h-[710px] object-contain 
+        className="h-[450px] sm:h-[550px] md:h-[500px] lg:h-[710px] object-contain 
         drop-shadow-[0_25px_40px_rgba(0,0,0,0.5)]"
       />
     </div>
@@ -45,6 +47,8 @@ const Home = () => {
   </div>
 
 </section>
+<About/>
+<Trending/>
   </>
 }
 
