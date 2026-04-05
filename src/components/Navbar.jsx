@@ -24,7 +24,7 @@ const Navbar = () => {
         {/* Logo */}
         <div className="flex items-center gap-3">
           {/* <img src="/logo.png" alt="Logo" className="w-12 h-12" /> */}
-          <h1 className="text-4xl font-bold ">
+          <h1 className="md:text-4xl text-2xl font-bold ">
             Frienzied
           </h1>
           
@@ -49,7 +49,7 @@ const Navbar = () => {
               >
                 {link.name}
                 <span
-                  className={`absolute left-0 -bottom-1 h-0.5 bg-gradient-to-r from-[#713827] via-[#bc7d49] to-[#d3aa82]transition-all duration-300
+                  className={`absolute left-0 -bottom-1 h-0.5 bg-gradient-to-r from-[#713827] via-[#bc7d49] to-[#d3aa82] transition-all duration-300
                   ${isActive ? "w-full" : "w-0 group-hover:w-full"}`}
                 ></span>
               </Link>

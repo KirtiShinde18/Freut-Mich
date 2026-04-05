@@ -1,52 +1,124 @@
 import React from 'react'
+import { motion } from "framer-motion";
+import { Link } from 'react-router-dom';
+
+// integrations image 
+import insta from "../assets/insta.png"
+import wp from "../assets/whatsAppLogo.png"
+
+import imginsta from "../assets/insta.jpeg"
+import imgwp from "../assets/wp.jpeg"
+
+
+const text = "Contact";
+
 
 const Contact = () => {
   return <>
-  <section id="men" className="py-25 md:py-32 px-6 min-h-screen">
-    <div className="max-w-7xl mx-auto text-center">
-      Contact
+    <section className="py-20 md:py-32 px-4 bg-[#eee9e4] min-h-screen flex flex-col justify-center overflow-hidden">
+      <div className="max-w-6xl mx-auto w-full">
+        {/* HEADING */}
+        <motion.h1 className="sm:text-5xl mt-5 text-3xl md:text-5xl font-bold mb-4 leading-tight text-center">
+          {text.split("").map((char, index) => (
+            <motion.span
+              key={index}
+              className="inline-block bg-gradient-to-b from-[#713827] via-[#bc7d49] to-[#d3aa82] bg-clip-text text-transparent"
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: index * 0.08 }}
+            >
+              {char === " " ? "\u00A0" : char}
+            </motion.span>
+          ))}
+        </motion.h1>
 
 
+        {/* insta  */}
+        <div className="mt-10 flex flex-col md:flex-row items-center gap-8  p-6 rounded-2xl">
+
+          {/* Left - Card */}
+          <div className="card bg-base-100 w-full md:w-1/2 shadow-sm rounded-2xl p-4">
+            <div className="card-body">
+        
+              <div className="flex items-center gap-3">
+                <img src={insta} alt="" className="w-15 h-15" />
+                <h2 className="card-title text-2xl">Instagram</h2>
+              </div>
+        
+              <p className="text-lg md:text-2xl mt-4">
+                New Arrivals. Tap to Shop the Freshest Drop.
+              </p>
+        
+              <p className="text-base md:text-lg mt-3">
+                Follow us on Instagram for the latest new drops and exclusive offers!
+              </p>
+        
+              <Link to="/contact" className="text-center mt-5">
+                <button className="text-lg bg-gradient-to-r from-amber-100 to-amber-900 px-5 py-2 rounded-lg text-black hover:scale-105 hover:opacity-90 transition-all duration-300">
+                  Shop On Instagram
+                </button>
+              </Link>
+        
+            </div>
+          </div>
+      
+          {/* Right - Image */}
+          <div className="w-full md:w-1/2 flex justify-center">
+            <img 
+              src={imginsta} 
+              alt="" 
+              className="w-full max-w-[400px] rounded-2xl object-cover"
+            />
+          </div>
+      
+        </div>
+
+
+        {/* wp integrations  */}
+        <div className="mt-10 flex flex-col md:flex-row items-center gap-8  p-6 rounded-2xl">
+
+          {/* Left - Card */}
+          <div className="w-full md:w-1/2 flex justify-center">
+            <img 
+              src={imgwp} 
+              alt="" 
+              className="w-full max-w-[400px] rounded-2xl object-cover"
+            />
+          </div>
+
+          {/* Right - Image */}
+          <div className="card bg-base-100 w-full md:w-1/2 shadow-sm rounded-2xl p-4">
+            <div className="card-body">
+        
+              <div className="flex items-center gap-3">
+                <img src={wp} alt="" className="w-15 h-15" />
+                <h2 className="card-title text-2xl">WhatsApp</h2>
+              </div>
+        
+              <p className="text-lg md:text-2xl mt-4">
+                Discover the Latest Tees .
+              </p>
+        
+              <p className="text-base md:text-lg mt-3">
+                Chat with us on WhatsApp to see the newest arrivals and place your order instantly !
+              </p>
+        
+              <Link to="/contact" className="text-center mt-5">
+                <button className="text-lg bg-gradient-to-r from-amber-100 to-amber-900 px-5 py-2 rounded-lg text-black hover:scale-105 hover:opacity-90 transition-all duration-300">
+                  Shop On WhatsApp
+                </button>
+              </Link>
+        
+            </div>
+          </div>
+      
           
-    <div className="max-w-7xl  rounded-2xl w-full 
-        grid grid-cols-1 lg:grid-cols-2 items-center mx-auto
-        py-6 px-4 md:py-10 md:px-8">
-
-  {/* left */}
-  <div className="md:ms-20 w-full text-center lg:text-left flex flex-col ">
-
-    <h1 className="text-3xl md:text-6xl font-bold leading-tight  bg-gradient-to-r from-[#713827] via-[#bc7d49] to-[#d3aa82] bg-clip-text text-transparent">
-      SHOP THE LATEST TRENDS
-    </h1>
-
-    <p className=" mt-2 text-lg md:text-2xl">
-      Stylish tees elevate your vibes.
-    </p>
-
-    <div className="flex gap-4 justify-center lg:justify-start mt-6">
-      <img src={WhatsAppLogoIntegration} width={50} />
-      <img src={InstaAppLogoIntegration} width={50} />
-    </div>
-
-  </div>
-
-  {/* image */}
-  <div className="flex justify-center  items-center">
-    <img
-  src={HeroBg}
-  alt=""
-  className="w-32 sm:w-44 md:w-64 lg:w-[320px] object-contain 
-  drop-shadow-[0_20px_30px_rgba(0,0,0,0.3)]"
-/>
-  </div>
-
-  
-
-</div>
+      
+        </div>
 
 
-    </div>
-  </section>
+      </div>
+    </section>
   </>
 }
 

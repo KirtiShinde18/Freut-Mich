@@ -15,7 +15,7 @@ const text = "Trending Now";
 
 const Trending = () => {
   return <>
-  <section id="hero" className="min-h-screen px-4 sm:px-6 flex items-center">
+  <section id="hero" className=" mt-25 min-h-screen px-4 sm:px-6 flex items-center">
 
       <div className="max-w-6xl mx-auto w-full ">
 
@@ -48,7 +48,7 @@ const Trending = () => {
                   <div className="card-body">
                     <div className="flex justify-between mb-3">
                       <div className="font-bold text-xl" md:text-2xl>NEW <br />ARRIVALS</div>
-                      <div className="text-5xl opacity-10">❁</div>
+
                     </div>
             
                     <div className="text-xs md:text-sm  mb-4 opacity-70">
