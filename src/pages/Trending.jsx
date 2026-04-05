@@ -42,19 +42,19 @@ const Trending = () => {
             <Link to="#" className="hover-3d mt-12 mx-2 cursor-pointer ">
         
                 {/* Content */}
-                <div className="card w-100  md:w-120 md:p-10 text-black bg-cover bg-center rounded-2xl"
+                <div className="card w-80  md:w-120 md:p-10 text-black bg-cover bg-center rounded-2xl"
                   style={{ backgroundImage: `url(${trend3})` }}>
             
                   <div className="card-body">
                     <div className="flex justify-between mb-3">
-                      <div className="font-bold text-2xl">NEW <br />ARRIVALS</div>
+                      <div className="font-bold text-xl" md:text-2xl>NEW <br />ARRIVALS</div>
                       <div className="text-5xl opacity-10">❁</div>
                     </div>
             
-                    <div className="text-sm  mb-4 opacity-70">
+                    <div className="text-xs md:text-sm  mb-4 opacity-70">
     
                       <p className='font-bold'> SUMMER '24 COLLECTION </p>
-                      <p className='text-lg'>Clean Fits. Effortless style.</p>
+                      <p className=''>Clean Fits. Effortless style.</p>
                     </div>
             
                     <div className="flex justify-between">
@@ -84,7 +84,7 @@ const Trending = () => {
             {/* card 2  */}
             <div className="hover-3d mt-12">
                 {/* content */}
-                <figure className=" w-100  md:w-60 md:h-80 rounded-2xl overflow-hidden">
+                <figure className=" w-80  md:w-60 md:h-80 rounded-2xl overflow-hidden">
                   <img 
                     src={img2} 
                     alt="" 
@@ -106,7 +106,7 @@ const Trending = () => {
             {/* card 3  */}
             <div className="hover-3d mt-12">
                 {/* content */}
-                <figure className=" w-100  md:w-60 md:h-80 rounded-2xl overflow-hidden">
+                <figure className=" w-80  md:w-60 md:h-80 rounded-2xl overflow-hidden">
                   <img 
                     src={img3} 
                     alt="" 
@@ -134,7 +134,7 @@ const Trending = () => {
             {/* card 1  */}
             <div className="hover-3d mt-12">
                 {/* content */}
-                <figure className=" w-100  md:w-60 md:h-80 rounded-2xl overflow-hidden">
+                <figure className=" w-80  md:w-60 md:h-80 rounded-2xl overflow-hidden">
                   <img 
                     src={img5} 
                     alt="" 
@@ -156,7 +156,7 @@ const Trending = () => {
             {/* card 2  */}
             <div className="hover-3d mt-12">
                 {/* content */}
-                <figure className=" w-100  md:w-60 md:h-80 rounded-2xl overflow-hidden">
+                <figure className=" w-80  md:w-60 md:h-80 rounded-2xl overflow-hidden">
                   <img 
                     src={img1} 
                     alt="" 
@@ -179,7 +179,7 @@ const Trending = () => {
             <Link to="#" className="hover-3d my-12 mx-2 cursor-pointer">
 
   <div 
-    className="card w-100 md:w-120 h-[300px] md:h-[320px] bg-cover bg-center rounded-2xl overflow-hidden"
+    className="card w-80 md:w-120 h-[300px] md:h-[320px] bg-cover bg-center rounded-2xl overflow-hidden"
     style={{ backgroundImage: `url(${trend4})` }}
   >
     {/* Empty body (optional for spacing) */}
