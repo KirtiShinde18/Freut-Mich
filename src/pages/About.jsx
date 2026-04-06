@@ -16,7 +16,7 @@ import slide_image_4 from "../assets/img4.jpeg";
 
 const images = [slide_image_1, slide_image_2, slide_image_3, slide_image_4];
 
-const text = "About Frienzied";
+const text = "About Freut Mich";
 
 const About = () => {
   return (
@@ -43,7 +43,7 @@ const About = () => {
           className="mt-12 text-center text-[#713827]/70 text-xl max-w-3xl mx-auto "
 
         >
-          Made for the modern hustler, <b>Frienzied</b> is all about premium quality, stylish T-shirts at unbeatable prices. We believe in keeping you looking sharp without the heavy price tag .
+          Made for the modern hustler, <b>Freut Mich</b> is all about premium quality, stylish T-shirts at unbeatable prices. We believe in keeping you looking sharp without the heavy price tag .
         </p>
 
         {/* Swiper Wrapper */}

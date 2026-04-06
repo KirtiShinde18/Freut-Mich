@@ -25,7 +25,7 @@ const Navbar = () => {
         <div className="flex items-center gap-3">
           {/* <img src="/logo.png" alt="Logo" className="w-12 h-12" /> */}
           <h1 className="md:text-4xl text-2xl font-bold ">
-            Frienzied
+            Freut Mich
           </h1>
           
         </div>
@@ -60,12 +60,16 @@ const Navbar = () => {
 
         {/* Desktop Button */}
         <div className="hidden md:flex gap-3">
-          <Link href="/contact">
-            <button className="bg-gradient-to-r from-amber-100 to-amber-900 px-4 py-2 rounded-lg text-black hover:scale-105 hover:opacity-90 
-              transition-all duration-300">
-              Shop On Instagram
-            </button>
-          </Link>
+          <a 
+                href="https://www.instagram.com/trends_ctrl_a?igsh=MzIybWF1bW9kam82" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-center mt-5 inline-block"
+              >
+                <button className="text-lg bg-gradient-to-r from-amber-100 to-amber-900 px-5 py-2 rounded-lg text-black hover:scale-105 hover:opacity-90 transition-all duration-300">
+                  Shop On Instagram
+                </button>
+              </a>
           
         </div>
 
