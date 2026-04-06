@@ -15,7 +15,7 @@ const text = "Trending Now";
 
 const Trending = () => {
   return <>
-  <section id="hero" className=" mt-25 min-h-screen px-4 sm:px-6 flex items-center">
+  <section id="hero" className="bg-white min-h-screen px-4 sm:px-6 flex items-center">
 
       <div className="max-w-6xl mx-auto w-full ">
 

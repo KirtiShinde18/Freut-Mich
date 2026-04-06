@@ -6,7 +6,7 @@ import Trending from './Trending'
 
 const Home = () => {
   return <>
-<section id="hero" className="min-h-screen px-4 sm:px-6 flex items-center">
+<section id="hero" className="min-h-screen bg-white px-4 sm:px-6 flex items-center">
 
   <div className="flex flex-col md:flex-row items-center justify-between w-full gap-10">
 
@@ -18,12 +18,12 @@ const Home = () => {
         SHOP THE <br /> LATEST TRENDS
       </h1>
 
-      <p className="mt-2 text-base sm:text-lg md:text-2xl">
+      <p className="mt-2 text-base sm:text-lg md:text-2xl text-black/60">
         Stylish tees elevate your vibes.
       </p>
 
       {/* Button */}
-      <a href="#" className="w-full sm:w-auto my-5">
+      <a href="https://www.instagram.com/trends_ctrl_a?igsh=MzIybWF1bW9kam82" className="w-full sm:w-auto my-5">
         <button className="w-full sm:w-auto flex items-center justify-center gap-2 px-6 py-3 sm:px-8 sm:py-4 rounded-xl 
         bg-gradient-to-r from-[#713827] via-[#bc7d49] to-[#d3aa82] 
         text-black text-base sm:text-lg font-semibold 
