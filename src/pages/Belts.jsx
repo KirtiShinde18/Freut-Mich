@@ -34,7 +34,7 @@ const Belts = () => {
 
         
 
-        <div className="flex gap-6 flex-wrap justify-center mt-10">
+        <div className="flex gap-6 flex-wrap justify-center my-10">
           {watches.map((img, i) => (
             <motion.img
               key={i}
