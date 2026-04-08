@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 
 import Womenshoe from "./Womenshoe";
-import Menshoe from "./menshoe";
+import Menshoe from "./Menshoe";
 
 
 
