@@ -20,7 +20,7 @@ const text = "About Freut Mich";
 
 const About = () => {
   return (
-    <section className="py-20 md:py-32 px-4 bg-[#eee9e4] min-h-screen flex flex-col justify-center overflow-hidden">
+    <section className="py-20 md:py-32 px-4 bg-[#ededed] min-h-screen flex flex-col justify-center overflow-hidden">
       <div className="max-w-6xl mx-auto w-full">
         
         {/* HEADING */}

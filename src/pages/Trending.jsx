@@ -15,7 +15,7 @@ const text = "Trending Now";
 
 const Trending = () => {
   return <>
-  <section id="hero" className="bg-white min-h-screen px-4 sm:px-6 flex items-center">
+  <section id="hero" className=" bg-[#ededed] min-h-screen px-4 sm:px-6 flex items-center">
 
       <div className="max-w-6xl mx-auto w-full ">
 
@@ -36,10 +36,10 @@ const Trending = () => {
 
 
         {/* Grid Photos  */}
-        <div className='flex flex-col md:flex-row gap-6 justify-evenly '>
+        <div className='flex flex-col md:flex-row gap-6 justify-evenly'>
 
             {/* card 1  */}
-            <Link to="#" className="hover-3d mt-12 mx-2 cursor-pointer ">
+            <Link to="https://www.instagram.com/trends_ctrl_a?igsh=MzIybWF1bW9kam82" className="hover-3d mt-12 mx-2 cursor-pointer ">
         
                 {/* Content */}
                 <div className="card w-80  md:w-120 md:p-10 text-black bg-cover bg-center rounded-2xl"
@@ -53,11 +53,12 @@ const Trending = () => {
             
                     <div className="text-xs md:text-sm  mb-4 opacity-70">
     
-                      <p className='font-bold'> SUMMER '24 COLLECTION </p>
+                      <p className='font-bold'> SUMMER '26 COLLECTION </p>
                       <p className=''>Clean Fits. Effortless style.</p>
                     </div>
             
                     <div className="flex justify-between">
+                      
                       <div>
                           <button className=" bg-black text-white px-4 py-2 rounded-lg hover:bg-gray-800 transition">
                               Shop Now

@@ -108,11 +108,16 @@ const Contact = () => {
                 Chat with us on WhatsApp to see the newest arrivals and place your order instantly !
               </p>
         
-              <Link to="/contact" className="text-center mt-5">
-                <button className="text-lg bg-gradient-to-r from-amber-100 to-amber-900 px-5 py-2 rounded-lg text-black hover:scale-105 hover:opacity-90 transition-all duration-300">
-                  Shop On WhatsApp
-                </button>
-              </Link>
+              <a 
+                href="https://wa.me/918766323695?text=Hello%20I%20want%20to%20shop"
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-center mt-5 inline-block"
+              >
+              <button className="text-lg bg-gradient-to-r from-amber-100 to-amber-900 px-5 py-2 rounded-lg text-black hover:scale-105 hover:opacity-90 transition-all duration-300">
+                Shop On WhatsApp
+              </button>
+            </a>
         
             </div>
           </div>

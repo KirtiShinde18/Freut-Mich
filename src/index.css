@@ -1,8 +1,11 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
+:root {
+  heading-font: 'Marcellus', Roboto, sans-serif;
+}
 body { 
   font-family: 'Syne', sans-serif; 
-
+  /* font-family: 'Marcellus', Roboto, sans-serif; */
 }
 
