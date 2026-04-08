@@ -53,7 +53,7 @@ const Shop = () => {
               />
               </Link>
         
-              <p className="mt-3 font-medium">{item.text}</p>
+              <p className="mt-3 font-medium text-black">{item.text}</p>
             </div>
           ))}
         </div>
