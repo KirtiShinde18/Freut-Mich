@@ -5,7 +5,7 @@ const Footer = () => {
   return <>
 
   <div className='text-center p-5 bg-[#fef6ef] text-black'>
-   <div className='border-b-1 mb-4 flex justify-between p-5 md:justify-evenly md:text-lg text-sm '>
+   <div className='border-b-1 border-gray-300 mb-4 flex justify-between p-5 md:justify-evenly md:text-lg text-sm '>
   
     <div className='flex flex-col items-center text-center gap-2'>
       <ShoppingBag size={28} />
