@@ -51,7 +51,7 @@ const About = () => {
           className="mt-12 text-center text-[#713827]/70 text-xl max-w-3xl mx-auto "
 
         >
-          Made for the modern hustler, <b>Freut Mich</b> is all about premium quality, stylish T-shirts at unbeatable prices. We believe in keeping you looking sharp without the heavy price tag .
+          Made for the modern hustler, <b>Freut Mich</b> is all about premium quality, stylish apparels  at unbeatable prices. We believe in keeping you looking sharp without the heavy price tag .
         </p>
 
         {/* Swiper Wrapper */}

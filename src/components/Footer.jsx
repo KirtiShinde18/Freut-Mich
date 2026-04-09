@@ -8,17 +8,17 @@ const Footer = () => {
    <div className='border-b-1 mb-4 flex justify-between p-5 md:justify-evenly md:text-lg text-sm '>
   
     <div className='flex flex-col items-center text-center gap-2'>
-      <ShoppingBag size={35}/>
+      <ShoppingBag size={28} />
       <p>EASY EXCHANGE</p>
     </div>
   
     <div className='flex flex-col items-center text-center gap-2'>
-      <HandHeartIcon size={35}/>
+      <HandHeartIcon size={28}/>
       <p>100% HANDPICKED</p>
     </div>
   
     <div className='flex flex-col items-center text-center gap-2'>
-      <ShoppingBag size={35}/>
+      <ShoppingBag size={28}/>
       <p>ASSURED QUALITY</p>
     </div>
 
