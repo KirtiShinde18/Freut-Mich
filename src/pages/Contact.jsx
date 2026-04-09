@@ -2,13 +2,13 @@ import React from 'react'
 import { motion } from "framer-motion";
 import { Link } from 'react-router-dom';
 
-// integrations image 
+// integrations image logo
 import insta from "../assets/insta.png"
 import wp from "../assets/whatsAppLogo.png"
 
-import imginsta from "../assets/insta.jpeg"
-import imgwp from "../assets/wp.jpeg"
-
+// images collage
+import imginsta from "../assets/collage1.jpeg"
+import imgwp from "../assets/collage2.jpeg"
 
 const text = "Contact";
 
@@ -57,9 +57,10 @@ const Contact = () => {
                 href="https://www.instagram.com/trends_ctrl_a?igsh=MzIybWF1bW9kam82" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-center mt-5 inline-block"
+                className="text-center mt-5 inline-block "
+
               >
-                <button className="text-lg bg-gradient-to-r from-amber-100 to-amber-900 px-5 py-2 rounded-lg text-black hover:scale-105 hover:opacity-90 transition-all duration-300">
+                <button className="cursor-pointer text-lg bg-gradient-to-r from-amber-100 to-amber-900 px-5 py-2 rounded-lg text-black hover:scale-105 hover:opacity-90 transition-all duration-300">
                   Shop On Instagram
                 </button>
               </a>
@@ -112,9 +113,9 @@ const Contact = () => {
                 href="https://wa.me/918766323695?text=Hello%20I%20want%20to%20shop"
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-center mt-5 inline-block"
+                className="text-center mt-5 inline-block cursor-pointer"
               >
-              <button className="text-lg bg-gradient-to-r from-amber-100 to-amber-900 px-5 py-2 rounded-lg text-black hover:scale-105 hover:opacity-90 transition-all duration-300">
+              <button className="cursor-pointer text-lg bg-gradient-to-r from-amber-100 to-amber-900 px-5 py-2 rounded-lg text-black hover:scale-105 hover:opacity-90 transition-all duration-300">
                 Shop On WhatsApp
               </button>
             </a>

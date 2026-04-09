@@ -67,7 +67,7 @@ const Navbar = () => {
                 rel="noopener noreferrer"
                 className="text-center mt-5 inline-block"
               >
-                <button className="text-lg bg-gradient-to-r from-amber-100 to-amber-900 px-5 py-2 rounded-lg text-black hover:scale-105 hover:opacity-90 transition-all duration-300">
+                <button className="cursor-pointer text-lg bg-gradient-to-r from-amber-100 to-amber-900 px-5 py-2 rounded-lg text-black hover:scale-105 hover:opacity-90 transition-all duration-300">
                   Shop On Instagram
                 </button>
           </a>

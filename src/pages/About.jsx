@@ -14,7 +14,15 @@ import slide_image_2 from "../assets/img2.jpeg";
 import slide_image_3 from "../assets/img3.jpeg";
 import slide_image_4 from "../assets/img4.jpeg";
 
-const images = [slide_image_1, slide_image_2, slide_image_3, slide_image_4];
+// women Images 
+import slide_image_5 from "../assets/wtshirt1.avif";
+import slide_image_6 from "../assets/wtshirt2.avif";
+import slide_image_7 from "../assets/wtshirt3.avif";
+import slide_image_8 from "../assets/wtshirt4.avif";
+import slide_image_9 from "../assets/wtshirt5.avif";
+
+
+const images = [slide_image_1, slide_image_2, slide_image_3, slide_image_4, slide_image_5, slide_image_6, slide_image_7, slide_image_8, slide_image_9];
 
 const text = "About Freut Mich";
 

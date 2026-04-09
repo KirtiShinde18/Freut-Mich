@@ -16,7 +16,7 @@ const Watches = () => {
         {/* Men Tab */}
         <button
           onClick={() => setActiveTab("men")}
-          className={`px-6 py-2 rounded-full font-medium transition-all duration-300
+          className={`cursor-pointer px-6 py-2 rounded-full font-medium transition-all duration-300
           ${activeTab === "men"
             ? "bg-white/50 text-black shadow-md backdrop-blur-md scale-105"
             : "text-black hover:bg-white/30"}`}
@@ -27,7 +27,7 @@ const Watches = () => {
         {/* Women Tab */}
         <button
           onClick={() => setActiveTab("women")}
-          className={`px-6 py-2 rounded-full font-medium transition-all duration-300
+          className={`cursor-pointer px-6 py-2 rounded-full font-medium transition-all duration-300
           ${activeTab === "women"
             ? "bg-white/50 text-black shadow-md backdrop-blur-md scale-105"
             : "text-black hover:bg-white/30"}`}
